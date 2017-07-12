@@ -49,8 +49,8 @@ def make_datum(img, label):
         label=label,
         data=np.rollaxis(img, 2).tostring())
 
-train_lmdb = '/workspace/blocks_training/deeplearning-cats-dogs-tutorial/input/train_lmdb'
-validation_lmdb = '/workspace/blocks_training/deeplearning-cats-dogs-tutorial/input/validation_lmdb'
+train_lmdb = '/workspace/caffe_training/input/train_lmdb'
+validation_lmdb = '/workspace/caffe_training/input/validation_lmdb'
 
 os.system('rm -rf  ' + train_lmdb)
 os.system('rm -rf  ' + validation_lmdb)
