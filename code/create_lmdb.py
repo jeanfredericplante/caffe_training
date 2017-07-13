@@ -25,7 +25,7 @@ IMAGE_WIDTH = 227
 IMAGE_HEIGHT = 227
 
 #Preprocessing images
-TRAINING_PERCENTAGE = 90
+TRAINING_PERCENTAGE = 80
 
 def transform_img(img, img_width=IMAGE_WIDTH, img_height=IMAGE_HEIGHT):
 
